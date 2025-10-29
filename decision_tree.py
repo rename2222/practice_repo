@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 xtrain,xtest,ytrain,ytest = train_test_split(x,y,test_size=0.2)
 
 xtrain.shape
-print("hello world!")
+print("helloworld!")
 from sklearn.tree import DecisionTreeClassifier
 
 clf= DecisionTreeClassifier()
